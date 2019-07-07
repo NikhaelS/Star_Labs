@@ -148,7 +148,7 @@ namespace Star_Labs_Assessment_Sewduth_N
         public double TotalPrice()
         {
             double TP = 0;
-            TP = (calcTShirt()) + (calcGolfer()) + (calcJeans()) + (calcFormal());
+            TP = calcTShirt() + calcGolfer() + calcJeans() + calcFormal();
             return TP;
         }
 
