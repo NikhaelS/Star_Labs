@@ -77,7 +77,7 @@ namespace Star_Labs_Assessment_Sewduth_N
     //Basket class to store items and calculate total cost.
     class Basket
     {
-        //List used to store T-shirts and Golfers.
+        //List used to store T-shirts.
         public List<TShirt> TShirts = new List<TShirt>();
 
         //List used to store Golfers.
